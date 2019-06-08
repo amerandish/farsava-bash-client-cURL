@@ -21,7 +21,7 @@
 # amir@amerandish.com
 #
 # MORE INFORMATION:
-# http://farsava.ir/docs/
+# https://bump.sh/doc/farsava
 #
 
 # For improved pattern matching in case statemets
@@ -458,7 +458,7 @@ build_request_path() {
 print_help() {
 cat <<EOF
 
-${BOLD}${WHITE}Farsava API command line client (API version 1.0.5)${OFF}
+${BOLD}${WHITE}Farsava API command line client (API version 1.0.6)${OFF}
 
 ${BOLD}${WHITE}Usage${OFF}
 
@@ -524,7 +524,7 @@ echo "  $ops" | column -t -s ';'
     echo -e "  -V,--version\\t\\t\\t\\tPrint API version"
     echo -e "  --about\\t\\t\\t\\tPrint the information about service"
     echo -e "  --host ${CYAN}<url>${OFF}\\t\\t\\t\\tSpecify the host URL "
-echo -e "              \\t\\t\\t\\t(e.g. 'https://api.farsava.ir')"
+echo -e "              \\t\\t\\t\\t(e.g. 'https://api.amerandish.com')"
 
     echo -e "  --force\\t\\t\\t\\tForce command invocation in spite of missing"
     echo -e "         \\t\\t\\t\\trequired parameters or wrong content type"
@@ -545,7 +545,7 @@ echo -e "              \\t\\t\\t\\t(e.g. 'https://api.farsava.ir')"
 ##############################################################################
 print_about() {
     echo ""
-    echo -e "${BOLD}${WHITE}Farsava API command line client (API version 1.0.5)${OFF}"
+    echo -e "${BOLD}${WHITE}Farsava API command line client (API version 1.0.6)${OFF}"
     echo ""
     echo -e "License: "
     echo -e "Contact: amir@amerandish.com"
@@ -565,7 +565,7 @@ echo "$appdescription" | paste -sd' ' | fold -sw 80
 ##############################################################################
 print_version() {
     echo ""
-    echo -e "${BOLD}Farsava API command line client (API version 1.0.5)${OFF}"
+    echo -e "${BOLD}Farsava API command line client (API version 1.0.6)${OFF}"
     echo ""
 }
 
